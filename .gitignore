@@ -1,0 +1,23 @@
+# Материалы для защиты (не коммитим)
+защита/
+
+# Секретные файлы
+config/config.py
+.env
+secrets.json
+
+# База данных
+*.db
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
